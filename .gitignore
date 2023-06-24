@@ -1,0 +1,18 @@
+#------------------------------#
+# Gitignore Cheat Sheet:
+## To ignore all files (located anywhere) with extension ".ext": *.ext
+## To ignore all files with extension ".ext" except the "filename.ext" file: !filename.ext
+## To ignore all directories named "dir" and all its contents: dir/ 
+## To ignore a "filename.ext" file located in the root directory: /filename.ext
+## To ignore any file (located anywhere) named "filename.ext": filename.ext
+## To ignore any file or directory named ".filename": .filename
+## To ignore all files and directories starting with "filename": filename*
+
+# Cheat sheet for pushing after updating the .gitignore file:
+## git add -u 						 # To update changes ignoring untracked files.
+## git rm -r --cached .    # To remove already tracked files from Git cache. 
+## git restore --staged .  # To unstage all changes.
+#------------------------------#
+
+# Jupyter Notebook
+.ipynb_checkpoints

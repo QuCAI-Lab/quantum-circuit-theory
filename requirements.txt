@@ -1,0 +1,37 @@
+# DEPENDENCIES
+# This file defines the pip-equivalent package dependencies to be installed with either setup.cfg or setup.py modules, or via the command-line interface (CLI).
+
+# Version control:
+watermark==2.3.1 # IPython magic extension for versioning control between Colab notebooks.
+
+# Linear Algebra:
+numpy>=1.23.5
+scipy==1.9.3
+sympy==1.11.1
+
+# Plotting:
+matplotlib==3.6.2
+pylatexenc==2.10 # The 'pylatexenc' library is required to use 'MatplotlibDrawer'.
+
+# Quantum Circuits:
+qiskit[all]==0.42.1
+PennyLane==0.28.0
+
+jupyter #Run using: "$ jupyter notebook"
+
+# CLI Cheat Sheet:
+## To install pip (conda env. on prem): conda install -yc conda-forge pip==22.3.1  
+## To install pip (Ubuntu-derivatives): apt install python3-pip
+## To show the current pip version, run: pip --version
+## To upgrade pip, run: python3 -m pip install --user --upgrade pip 
+## To list installed packages, run: pip list
+## To install an individual package, run: python3 -m pip install --user <package-name>.
+## To show a package info, run: pip show <package-name>
+## To upgrade a package, run: python3 -m pip install --user --upgrade <package-name>==<version-number>
+## To uninstall packages, run: pip uninstall <package1> <package2>
+
+# NOTES
+## The flags '--user' and '--version' can be abbreviated to '-U' and '-V', respectively.
+## The -m flag in "python3 -m pip" enforce the pip version tied to the active environment, i.e, instructs python to run pip as the __main__ module (script).
+## The 'pip install jupyter' command will install the Jupyter system, including the jupyter notebook, qtconsole, and the IPython kernel.
+## One should avoid 'pip install conda' since it will not give conda as a standalone application.
