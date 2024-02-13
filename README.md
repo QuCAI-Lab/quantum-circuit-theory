@@ -45,8 +45,16 @@
 # Table of Contents
 
 - **[00_postulates](notebooks/00_postulates.ipynb)**
+	- Dirac notation
+	- Postulate 1 (State Space)
+	- Postulate 2 (Evolution)
+	- Postulate 3 (Measurement)
+		- Projective measurement (a.k.a von Neumann measurement) and Born's rule
+		- Expectation value
+	- 4 Postulate (Composite State)
+	- System's dynamics: Schrödinger equation
+	- Solution to the Schrödinger equation
 - **[01_formalism](notebooks/01_formalism.ipynb)**
-	- Dirac notation.
 	- Linear operators.
 	- Basis states.
 		- Z-basis.
@@ -100,6 +108,12 @@
 - **[09_universal_gate_set](notebooks/09_universal_gate_set.ipynb)**
 	- Obtaining the universal gate set.
 - **[10_trotterization](notebooks/10_trotterization.ipynb)**
+	- The Trotter-Susuki formula
+	- The Heisenberg XXX Spin-1/2 Lattice Model for $N=3$ Three Particles
+	- Decomposition of $U_{\text{Heis3}}(t)$ using Trotterization
+	- About the Trotterized Evolution
+	    - Verifying identities with NumPy
+	    - Verifying identities with Qiskit Opflow
 - **[11_implementations](notebooks/11_implementations.ipynb)**
 	- NumPy and Sympy implementations of:
 		- Basis states.
