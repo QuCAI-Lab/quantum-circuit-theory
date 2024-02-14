@@ -53,8 +53,8 @@
 	- Postulate 3 (Measurement)
 		- Projective measurement (a.k.a von Neumann measurement) and Born's rule
 		- Expectation value
-	- 4 Postulate (Composite State)
-	- **[System's Dynamics: Schrödinger equation](#dynamics)**
+	- Postulate 4 (Composite State)
+	- System's Dynamics: Schrödinger equation
 		- Wave Mechanics formalism
 	 	- Matrix Mechanics formalism
 			- Schrödinger Picture (S-P)
