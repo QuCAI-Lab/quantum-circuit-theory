@@ -47,12 +47,18 @@
 - **[00_postulates](notebooks/00_postulates.ipynb)**
 	- Dirac notation
 	- Postulate 1 (State Space)
+		- First case: discrete spectrum
+		- Second case: continuous spectrum
 	- Postulate 2 (Evolution)
 	- Postulate 3 (Measurement)
 		- Projective measurement (a.k.a von Neumann measurement) and Born's rule
 		- Expectation value
 	- 4 Postulate (Composite State)
-	- System's dynamics: Schrödinger equation
+	- **[System's Dynamics: Schrödinger equation](#dynamics)**
+		- Wave Mechanics formalism
+	 	- Matrix Mechanics formalism
+			- Schrödinger Picture (S-P)
+			- Heisenberg Picture (H-P)
 	- Solution to the Schrödinger equation
 - **[01_formalism](notebooks/01_formalism.ipynb)**
 	- Linear operators.
