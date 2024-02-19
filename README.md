@@ -18,7 +18,7 @@
 <!-- Title: -->
 <div align="center"> 
   <h1> Crash Course </h1>
-  <h1> Quantum Circuit Theory </h1>
+  <h1> Quantum Circuit Theory and Implementations </h1>
 </div>
 
 <!-- Author: -->
