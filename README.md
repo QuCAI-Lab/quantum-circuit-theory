@@ -1,12 +1,7 @@
 <!-- Badges: -->
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg?logo=paypal&style=flat-square)](https://www.paypal.me/CamponogaraViera/100)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-informational)
 [![Python](https://img.shields.io/badge/Python-3.11.2-informational)](https://www.python.org/)
 [![Contributions](https://img.shields.io/badge/contributions-welcome-orange?style=flat-square)](https://github.com/QuCAI-Lab/quantum-circuit-theory/pulls)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/QuCAI-Lab/quantum-circuit-theory/graphs/commit-activity)
 [![License](https://img.shields.io/github/license/QuCAI-Lab/quantum-circuit-theory.svg?logo=CreativeCommons&style=flat-square)](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/LICENSE.md)
-<!-- [![Qiskit](https://img.shields.io/badge/Qiskit-0.42.1-6133BD)](https://qiskit.org/) -->
-<!-- [![Pennylane](https://img.shields.io/badge/Pennylane-0.28.0-6133BD)](https://pennylane.ai/) -->
 
 <!-- Logo: -->
 <div align="center">
@@ -17,13 +12,7 @@
 
 <!-- Title: -->
 <div align="center"> 
-  <h1> Crash Course </h1>
   <h1> Quantum Circuit Theory and Implementations </h1>
-</div>
-
-<!-- Author: -->
-<div align="center">
-  <b>Author: Lucas Camponogara Viera</a>
 </div>
 
 <!-- Dependencies: -->
@@ -33,13 +22,16 @@
 <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://numpy.org/images/logo.svg"></a>
 <a href="https://sympy.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://www.sympy.org/static/images/logo.png"></a>
 <a href="https://scipy.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://scipy.org/images/logo.svg"></a>
+<a href="https://pennylane.ai/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Qiskit-Logo.svg/1200px-Qiskit-Logo.svg.png"></a>
+<a href="https://pennylane.ai/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://qiskit.org/"></a>
+<!-- 
 <a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://qiskit.org/documentation/stable/0.19/_static/logo.png">
     <img alt="Shows Qiskit logo for light color mode and dark color mode." src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Qiskit-Logo.svg/1200px-Qiskit-Logo.svg.png" height="27">
   </picture>
-<a href="https://pennylane.ai/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://pennylane.ai/img/logo.png"></a>
 </a>
+-->
 <br>
 
 # Table of Contents
@@ -62,6 +54,7 @@
 	- Solution to the Schrödinger equation
 - **[01_formalism](notebooks/01_formalism.ipynb)**
 	- Linear operators.
+	- Outer product representation.
 	- Basis states.
 		- Z-basis.
 		- X-basis.
@@ -100,6 +93,7 @@
 - **[05_multi_qubit_gates](notebooks/05_multi_qubit_gates.ipynb)**
 	- Multi-qubit gate $C_n^{j}(U_{2^m})$ with $n$ control qubits and $m$ target qubits.
 - **[06_gate_identities](notebooks/06_gate_identities.ipynb)**
+	- Qiskit little-endian convention.
 	- Pauli gates.
 	- Standard rotation single-qubit gates.
 	- Rotations.
@@ -108,19 +102,16 @@
 	- Pauli decomposition. 
 	- Single-qubit gate decomposition.
 	- Two-qubit gate decomposition.
-- **[08_circuit_identities](notebooks/08_circuit_identities.ipynb)**
-	- Qiskit little-endian convention.
-	- Circuit identities via conjugation by unitary.
-- **[09_universal_gate_set](notebooks/09_universal_gate_set.ipynb)**
+- **[08_universal_gate_set](notebooks/09_universal_gate_set.ipynb)**
 	- Obtaining the universal gate set.
-- **[10_trotterization](notebooks/10_trotterization.ipynb)**
+- **[09_trotterization](notebooks/10_trotterization.ipynb)**
 	- The Trotter-Susuki formula
 	- The Heisenberg XXX Spin-1/2 Lattice Model for $N=3$ Three Particles
 	- Decomposition of $U_{\text{Heis3}}(t)$ using Trotterization
 	- About the Trotterized Evolution
 	    - Verifying identities with NumPy
 	    - Verifying identities with Qiskit Opflow
-- **[11_implementations](notebooks/11_implementations.ipynb)**
+- **[10_implementations](notebooks/11_implementations.ipynb)**
 	- NumPy and Sympy implementations of:
 		- Basis states.
 		- Projector operators.
@@ -162,6 +153,9 @@ python -m pip install -r requirements.txt
 # References &nbsp; <a href="#"><img valign="middle" height="45px" src="https://img.icons8.com/book" width="45" hspace="0px" vspace="0px"></a> 
 
 \[1] Nielsen MA, Chuang IL. 2010. "Quantum Computation and Quantum Information." New York: [Cambridge Univ. Press.](https://doi.org/10.1017/CBO9780511976667) 10th Anniv. Ed. 
+- Corollary 4.2, pg. 176: Gate decomposition.
+- Theorem 4.3, pg. 207: Trotter formula. 
+- Chapter 4.7.2, pg. 206: The quantum simulation algorithm. 
 
 \[2] Barenco, A., Bennett, C.H., Cleve, R., DiVincenzo, D.P., Margolus, N., Shor, P., Sleator, T., Smolin, J.A. and Weinfurter, H. (1995) Elementary gates for quantum computation. [Phys. Rev. A 52, 3457–3467](https://journals.aps.org/pra/abstract/10.1103/PhysRevA.52.3457).
 
@@ -178,7 +172,3 @@ python -m pip install -r requirements.txt
 This work is licensed under a [Creative Commons Zero v1.0 Universal](LICENSE.md) license.
 
 <hr>
-
-Created and maintained by [@camponogaraviera][1].
-
-[1]: https://github.com/camponogaraviera
