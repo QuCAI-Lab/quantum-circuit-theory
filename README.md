@@ -87,10 +87,16 @@
 - **[06_gate_circuit_identities](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/06_gate_circuit_identities.ipynb)**
 	- Qiskit little-endian convention.
 	- Pauli gates.
-	- Standard rotation single-qubit gates.
+	- Single-qubit gates.
+	- Multi-qubit gates.
 	- Rotations.
+<<<<<<< HEAD
+	- Conjugation by Unitary.  
+- **[07_gate_decomposition](notebooks/07_gate_decomposition.ipynb)**
+=======
 	- Conjugation by Unitary.
 - **[07_gate_decomposition](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/07_gate_decomposition.ipynb)**
+>>>>>>> 05810c07bae287bc62ca42b36e2d901eaebdf2e9
 	- Pauli decomposition. 
 	- Single-qubit gate decomposition.
 	- Two-qubit gate decomposition.
