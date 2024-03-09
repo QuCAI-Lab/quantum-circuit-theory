@@ -28,7 +28,7 @@
 
 # Table of Contents
 
-- **[00_postulates](notebooks/00_postulates.ipynb)**
+- **[00_postulates](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/00_postulates.ipynb)**
 	- Dirac notation
 	- Postulate 1 (State Space)
 		- First case: discrete spectrum
@@ -44,7 +44,7 @@
 			- Schrödinger Picture (S-P)
 			- Heisenberg Picture (H-P)
 	- Solution to the Schrödinger equation
-- **[01_formalism](notebooks/01_formalism.ipynb)**
+- **[01_formalism](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/01_formalism.ipynb)**
 	- Linear operators.
 	- Outer product representation.
 	- Basis states.
@@ -59,7 +59,7 @@
 	- Hermitian gates.
 	- Spectral decomposition theorem.
 	- Operator function.
-- **[02_single_qubit_gates](notebooks/02_single_qubit_gates.ipynb)**
+- **[02_single_qubit_gates](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/02_single_qubit_gates.ipynb)**
 	- Pauli gates.
 	- Hadamard gate a.k.a superposition gate.
 	- $R_{\hat{n}}(\theta)$ standard rotation single-qubit gate.
@@ -70,11 +70,11 @@
 	- $U(\theta, \phi, \lambda)$ three-parameter single-qubit gate.
 	- Qiskit $U1(\lambda)\equiv U(0,0,\lambda)=P(\lambda)$.
 	- Qiskit $U2(\phi, \lambda) \equiv U(\pi/2, \phi, \lambda)$.
-- **[03_change_of_basis.ipynb](notebooks/03_change_of_basis.ipynb)**
+- **[03_change_of_basis.ipynb](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/03_change_of_basis.ipynb)**
 	- Measurement. 
 	- From the $Z$-basis to the $X$-basis.
 	- From the $Z$-basis to the $Y$-basis.
-- **[04_two_qubit_gates](notebooks/04_two_qubit_gates.ipynb)**
+- **[04_two_qubit_gates](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/04_two_qubit_gates.ipynb)**
 - Deriving gates via spectral theorem, parity trick, and single-qubit rotations.
 	- CNOT gate.
 	- SWAP gate.
@@ -82,35 +82,35 @@
 	- $XX(t)$ gate.
 	- $YY(t)$ gate.
 	- Verifying outer products.
-- **[05_multi_qubit_gates](notebooks/05_multi_qubit_gates.ipynb)**
+- **[05_multi_qubit_gates](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/05_multi_qubit_gates.ipynb)**
 	- Multi-qubit gate $C_n^{j}(U_{2^m})$ with $n$ control qubits and $m$ target qubits.
-- **[06_gate_identities](notebooks/06_gate_identities.ipynb)**
+- **[06_gate_circuit_identities](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/06_gate_circuit_identities.ipynb)**
 	- Qiskit little-endian convention.
 	- Pauli gates.
 	- Standard rotation single-qubit gates.
 	- Rotations.
 	- Conjugation by Unitary.
-- **[07_gate_decomposition](notebooks/07_gate_decomposition.ipynb)**
+- **[07_gate_decomposition](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/07_gate_decomposition.ipynb)**
 	- Pauli decomposition. 
 	- Single-qubit gate decomposition.
 	- Two-qubit gate decomposition.
-- **[08_universal_gate_set](notebooks/09_universal_gate_set.ipynb)**
+- **[08_universal_gate_set](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/08_universal_gate_set.ipynb)**
 	- Obtaining the universal gate set.
-- **[09_trotterization](notebooks/10_trotterization.ipynb)**
+- **[09_trotterization](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/09_trotterization.ipynb)**
 	- The Trotter-Susuki formula
 	- The Heisenberg XXX Spin-1/2 Lattice Model for $N=3$ Three Particles
 	- Decomposition of $U_{\text{Heis3}}(t)$ using Trotterization
 	- About the Trotterized Evolution
 	    - Verifying identities with NumPy
 	    - Verifying identities with Qiskit Opflow
-- **[10_implementations](notebooks/11_implementations.ipynb)**
+- **[10_implementations](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/10_implementations.ipynb)**
 	- NumPy and Sympy implementations of:
 		- Basis states.
 		- Projector operators.
 		- Single-qubit gates.
 		- Two-qubit gates.
 		- Eigenvalues and eigenvectors.
-- **[algebraic_identities](notebooks/algebraic_identities.ipynb)**
+- **[algebraic_identities](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/algebraic_identities.ipynb)**
 	- Notation.
 	- Representations.
 	- Identities: algebraic proof of useful linear algebra identities for quantum circuits with SymPy and SciPy verification.
@@ -122,9 +122,9 @@
 		- Commutation.
 		- Matrix exponential.
 		- Rotations.
-- **[glossary](notebooks/glossary.ipynb)**
+- **[glossary](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/glossary.ipynb)**
 	- Jargon and Terminology.
-- **[Q&A](notebooks/Q_A.ipynb)**
+- **[Q&A](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/Q_A.ipynb)**
 	- Questions and Answers.
   
 # Conda Env.
