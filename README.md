@@ -91,8 +91,6 @@
 	- Multi-qubit gates.
 	- Rotations.
 	- Conjugation by Unitary.  
-- **[07_gate_decomposition](notebooks/07_gate_decomposition.ipynb)**
-	- Conjugation by Unitary.
 - **[07_gate_decomposition](https://github.com/QuCAI-Lab/quantum-circuit-theory/blob/dev/notebooks/07_gate_decomposition.ipynb)**
 	- Pauli decomposition. 
 	- Single-qubit gate decomposition.
