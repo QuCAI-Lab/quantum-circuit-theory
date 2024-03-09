@@ -22,16 +22,8 @@
 <a href="https://numpy.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://numpy.org/images/logo.svg"></a>
 <a href="https://sympy.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://www.sympy.org/static/images/logo.png"></a>
 <a href="https://scipy.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://scipy.org/images/logo.svg"></a>
-<a href="https://pennylane.ai/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Qiskit-Logo.svg/1200px-Qiskit-Logo.svg.png"></a>
-<a href="https://pennylane.ai/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://qiskit.org/"></a>
-<!-- 
-<a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://qiskit.org/documentation/stable/0.19/_static/logo.png">
-    <img alt="Shows Qiskit logo for light color mode and dark color mode." src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Qiskit-Logo.svg/1200px-Qiskit-Logo.svg.png" height="27">
-  </picture>
-</a>
--->
+<a href="https://qiskit.org/" target="_blank" rel="noopener noreferrer"><img height="27" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Qiskit-Logo.svg/1200px-Qiskit-Logo.svg.png"></a>
+
 <br>
 
 # Table of Contents
